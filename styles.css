@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    /*background-color: rgb(30, 26, 23);*/
+    background-color: blanchedalmond;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: red;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.nav-link:hover {
+    /*color: #f1c40f;*/
+    color: darkorange;
+    font-weight: 900;
+}
+
+
+.logo > img {
+    width: 70px;
+    height: 70px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    border-radius: 10%;
+}
+
+.logo {
+    width: 20vw;
+}
+
+
+div {
+    display: block;
+}
+
+nav {
+    display: block;
+    padding-left: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75px;
+    background-color: blanchedalmond;
+} 
+
+
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 100px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: block;
+}
+
+#hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+
+}
+
+#hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
+
+.btn {
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    background: transparent;
+}
+
+#hero input[type='submit']:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.grid {
+    display: flex;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+#services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3.5);
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+
+#pricing {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product .level {
+    padding: 15px 0px;
+    background-color: #ddd;
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product > h2 {
+    margin-top: 15px;
+}
+
+.product > ol > li {
+    padding: 5px 0;
+    list-style: none;
+}
+
+.product > button {
+    border: 0;
+    padding: 10px 15px;
+    background-color: #f1c40f;
+    font-weight: 400px;
+    margin: 15px;
+}
+
+.product > button:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.items > h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.items > p {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding-left: 4px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    margin: 25px 80px;
+  }
+
+.row img {
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 35px;
+    background-color: ddd;
+    padding: 20px 70px;
+    font-family: sans-serif;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > ul > li {
+    padding: 0 10px;
+    list-style: none;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+.zafri {
+    display: flex;
+    justify-content: center;
+}
+
+.zafri a {
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+.zafri a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+    footer > ul {
+        justify-content: center;
+    }
+
+    .zafri {
+        display: none;
+    }
+  }
+
+@media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+
+@media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
+
+@media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+    nav li {
+      padding-bottom: 5px;
+    }
+  }
+
+@media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
+
+@media (max-width: 650px) {
+    #hero {
+      margin-top: 120px;
+    }
+  }
+
+@media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+  }
+
+
+@media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    #features .desc {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+    }
+  }
+
+
+  @media (max-width: 650px) {
+    #features {
+      margin-top: 0;
+    }
+  }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Product Landing Page - Hariyal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="images/hariyal-profile-pic-1.jpeg" alt="hairyal-logo" id="header-img">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#items" class="nav-link">Items</a></li>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Dear, Submit Your E-mail</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input name="email" type="email" id="email" placeholder="Enter Your Email">
+            <input type="submit" id="submit" value="Contact Me" class="btn">
+        </form>
+    </section>
+    <!--div#features>div.grid*3>div.icon+div.desc>h2+p-->
+    <div id="features">
+        <div class="grid">
+            <div class="icon">
+                <i class="fa fa-3x fa-handshake"></i>
+            </div>
+            <div class="desc">
+                <h2>Cleanliness</h2>
+                <p>Experience the highest standard of cleanliness at our catering service. We prioritize hygiene, regularly sanitizing cooking areas, utensils, and storage spaces to ensure food safety and customer satisfaction. Trust us for impeccable cleanliness and top-notch service.</p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon">
+                <i class="fa fa-3x fa-truck"></i>
+            </div>
+            <div class="desc">
+                <h2>Fast Delivery</h2>
+                <p>Encounter the pinnacle of efficiency with our catering service's lightning-fast delivery. We prioritize timely service, ensuring your order reaches you promptly without compromising on quality. Trust us for swift, reliable delivery every time.</p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon">
+                <i class="fa fa-3x fa-lemon" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+                <h2>Premium Qurlity</h2>
+                <p>Indulge in the pinnacle of culinary excellence with our catering service's premium quality food. We prioritize using the finest ingredients and expert preparation techniques to deliver a dining experience that surpasses expectations. Trust us for exquisite flavors and impeccable taste every time.</p>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/I1udlhk2mWw?si=0NqRAs0lHCoRFXe6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="pricing">
+        <div class="product" id="breakfast">
+            <div class="level">Breakfast</div>
+            <h2>100 Tk.</h2>
+            <ol>
+                <li>Boiled Egg</li>
+                <li>Milk</li>
+                <li>Bread with Butter</li>
+                <li>Juice</li>  
+            </ol>
+            <button class="btn">select</button>
+        </div>
+        <div class="product" id="lunch">
+            <div class="level">Lunch</div>
+            <h2>200 Tk.</h2>
+            <ol>
+                <li>Beef Briyani</li>
+                <li>Chicken Rost</li>
+                <li>Cold Drinks</li>
+                <li>Matha</li>    
+            </ol>
+            <button class="btn">select</button>
+        </div>
+        <div class="product" id="dinner">
+            <div class="level">Dinner</div>
+            <h2>200 Tk.</h2>
+            <ol>
+                <li>Mutton Briyani</li>
+                <li>Cik Kabab</li>
+                <li>Cold Drinks</li>
+                <li>Ice Cream</li>   
+            </ol>
+            <button class="btn">select</button>
+        </div>
+    </section>
+    <div class="items" id="items">
+        <h2>Available Items</h2>
+        <p>All the items are available and we will prepare then once you complete your order</p>
+        <div class="row">
+            <div class="column"><img src="images/beef-halim.jpeg" alt="" width="100%"></div>
+            <div class="column"><img src="images/faluda.jpeg" alt="" width="100%"></div>
+            <div class="column"><img src="images/chowmin.jpeg" alt="" width="100%"></div>
+            <div class="column"><img src="images/pasta.jpeg" alt="" width="100%"></div>
+            <div class="column"><img src="images/mint-lemon.jpeg" alt="" width="100%"></div>
+            <div class="column"><img src="images/pizza.jpeg" alt="" width="100%"></div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#" id="privacy">Privacy</a></li>
+            <li><a href="#" id="terms">Terms</a></li>
+            <li><a href="contacts" id="contacts">Contact</a></li>
+        </ul>
+        <span class="zafri">This Web Page is Developed by <a href="https://www.linkedin.com/in/muhammad-hadiuzzaman-zafri-35074b252/"> MD HADIUZZAMAN ZAFRI</a></span>
+    </footer>
+    
+</body>
+</html>
